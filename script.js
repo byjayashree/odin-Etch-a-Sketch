@@ -64,7 +64,7 @@ function createGrid(size)
         const gridDiv = document.createElement("div");
         gridDiv.style.flex = `0 0 ${100 / size}%`;
         gridDiv.style.height = `${100 / size}%`;
-        gridDiv.style.border = "0.5px dotted black";
+        gridDiv.style.border = "0.3px dotted black";
 
         gridDiv.addEventListener('mouseover', function() {
             if (drawingMode)
